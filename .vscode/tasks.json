@@ -1,0 +1,12 @@
+{
+    "version": "2.0.0",
+    "tasks": [
+        {
+            "label": "Start PHP Server (Port 8090)",
+            "type": "shell",
+            "command": "php -S 0.0.0.0:8090",
+            "isBackground": true,
+            "problemMatcher": []
+        }
+    ]
+}

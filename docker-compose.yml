@@ -1,0 +1,10 @@
+services:
+  web:
+    build: .
+    container_name: electronics_php_app
+    ports:
+      - "8090:80"
+    volumes:
+      - .:/var/www/html
+      - ./php.ini:/usr/local/etc/php/php.ini
+    restart: always
